@@ -1,0 +1,33 @@
+.spinner-container {
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.spinner-container .spinner-icon {
+  font-size: 48px;
+  position: relative;
+}
+
+.spinner-container .spinner-icon:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026"; 
+  position: absolute;
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.25em;    
+  }
+}
