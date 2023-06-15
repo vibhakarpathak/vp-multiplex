@@ -1,0 +1,10 @@
+.no-data-found-container {
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.no-data-found-container .header {
+  display: inline-block;
+  font-size: 48px;  
+}

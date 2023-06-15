@@ -1,0 +1,33 @@
+#header {
+    background: #141518;
+}
+
+#header .navbar-brand img {
+    max-height: 40px;
+}
+
+#header .navbar .nav-links a{
+    color: rgb(149, 87, 175) !important;
+    font-weight: 600;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+}
+
+#header .navbar .nav-links a:hover .fa{
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+}
+
+#header .navbar .nav-links a:hover .fa,
+#header .navbar .nav-links a:focus .fa {
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+#header .navbar .nav-links a:hover, 
+#header .navbar .nav-links a:focus {
+    color: #fd7900 !important;
+}
